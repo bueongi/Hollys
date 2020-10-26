@@ -1,0 +1,24 @@
+@charset "utf-8";
+
+  /* css reset */
+  *{margin:0; border:none; padding:0;}
+  a{color:#000000; text-decoration:none;}
+  ul,ol,li{list-style:none;}
+  img{vertical-align:top;}
+  /* 초기화하는 것처럼 사용됨 */
+  .clearfix::after{
+      content:'';
+      display:block;
+      clear:both;
+  }
+
+  body{
+    font-family:'Noto Sans KR';
+  }
+  .eng{font-family:'Roboto';}
+  .grid940{width:940px;margin:0 auto;}
+  .header{
+    border-bottom:2px solid #b5121b;
+    padding-top:22px;
+  }
+ 
