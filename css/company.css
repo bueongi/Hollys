@@ -1,10 +1,11 @@
 @charset "utf-8";
 
+.comp{padding:10px 0;}
 .page_tit{padding:20px 0 40px;font-family:'Roboto';font-weight:bold;font-size:24px;color:#333;}
 .page_tit>.span{font-family:'Noto sans KR';}
-.art_tit{ font-weight:bold;font-size:16px;color:#333;}
-.page_txt{font-size:14px;line-height:21px;color:#666;}
-.comp{padding:10px 0;}
+.art_tit{font-weight:bold;font-size:16px;color:#333;}
+.page_txt{padding:20px 0;font-size:14px;line-height:21px;color:#666;}
+
 .comp_header,.comp_art{padding:20px 0;}
 .comp_header>p:last-child{font-weight:bold;}
 .comp_art{border-bottom:1px solid #b5121b;}
