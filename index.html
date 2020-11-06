@@ -20,21 +20,12 @@
   <!-- font-awesome -->
   <link rel="stylesheet" href="./css/font-awesome.min.css">
 
-   <!-- bxslider -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+  <!-- swiper slider -->
+  <link rel="stylesheet" href="./css/swiper-bundle.min.css">
+  <script src="./js/swiper-bundle.min.js"></script>
 
   <script>
-    $(document).ready(function(){
-      $('.slider').bxSlider({
-        mode:'fade',
-        responsive:false,
-        auto:true,
-        controls:false,
-        pause:3000
-      });
-    });
+    
   </script>
   <link rel="stylesheet" href="./css/reset.css">
   <link rel="stylesheet" href="./css/header.css">
@@ -63,7 +54,7 @@
           <div class="header_small_menu02">
             <ul class="clearfix">
               <li><a href="./login.html">멤버십 로그인</a></li>
-              <li><a href="#">멤버십 가입</a></li>
+              <li><a href="./join.html">멤버십 가입</a></li>
               <li><a href="#">고객센터</a></li>
               <li><a href="#" class="eng">Engiish</a></li>
               <li><a href="#">中文</a></li>
@@ -127,12 +118,26 @@
       </div>
     </header>
     <section class="sec01 main_banner">
-      <div class="slider">
-        <div><img src="./images/main_banner01.jpg" alt="banner01"></div>
-        <div><img src="./images/main_banner02.jpg" alt="banner02"></div>
-        <div><img src="./images/main_banner03.jpg" alt="banner03"></div>
-        <div><img src="./images/main_banner04.jpg" alt="banner04"></div>
-        <div><img src="./images/main_banner05.jpg" alt="banner05"></div>
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="./images/main_banner01.jpg" alt="banner01">
+          </div>
+          <div class="swiper-slide">
+            <img src="./images/main_banner02.jpg" alt="banner02">
+          </div>
+          <div class="swiper-slide">
+            <img src="./images/main_banner03.jpg" alt="banner03">
+          </div>
+          <div class="swiper-slide">
+            <img src="./images/main_banner04.jpg" alt="banner04">
+          </div>
+          <div class="swiper-slide">
+            <img src="./images/main_banner05.jpg" alt="banner05">
+          </div>
+          <!-- If we need pagination -->
+          <div class="swiper-pagination"></div>
+        </div>
       </div>
     </section>
     <section class="sec02 fra_mall_store">
