@@ -1,6 +1,6 @@
 .login{margin-top:40px;}
 .login .grid940{display:flex;flex-flow:row nowrap;}
-.login aside{width:28%}
+.login aside{width:25%}
 .aside_txt{margin-bottom:40px;}
 .aside_txt li{font-weight:700;font-size:1.3rem;}
 .aside_txt li:hover{color:#b5121b;}

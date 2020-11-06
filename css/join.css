@@ -1,0 +1,25 @@
+.join{margin-top:40px;}
+.join .grid940{display:flex;flex-flow:row nowrap;}
+.join aside{width:25%}
+.aside_txt{margin-bottom:40px;}
+.aside_txt li{font-weight:700;font-size:1.3rem;}
+.aside_txt li:hover{color:#b5121b;}
+.aside_membership{color:#666;margin-bottom:30px;}
+.aside_membership p:first-child{font-family:'Roboto';font-weight:600;}
+.aside_membership p:last-child{font-weight:400;font-size:.8rem;}
+.join .join_sec{width:69%;}
+.join_sec .membership_txt{font-size:14px;line-height:21px;color:#666;}
+.join_sec .membership_sm_tit{font-weight:500;font-size:2.3rem;margin-bottom:60px;}
+.membership_lg_tit{padding:40px 0 8px 0;font-family:'Roboto';font-size:4.3rem;color:#b5121b;}
+.join_txt{color:#333;}
+
+.join_form{margin:40px 0 80px;}
+.certification{display:flex;justify-content:space-around;text-align:center;margin:0 0 40px 65px;line-height:1.5rem;}
+.cer_phone{padding-right:56px;border-right:1px solid #ccc;}
+.certification p:first-of-type{padding-top:2rem;;font-weight:600;}
+.certification p:last-of-type{font-size:.7rem;color:#888;}
+.certification button{outline:none;margin-top:2rem;padding:10px 20px;border:1px solid #ccc;cursor:pointer;}
+.cer_ipin{padding-left:45px;}
+.join_important{background:url('../images/join_point.gif') no-repeat;background-position-y:3px;}
+.import_tit{margin-left:1rem;font-size:.8rem;color:#666;}
+.import_txt{font-size:.8rem;color:#666;}

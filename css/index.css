@@ -1,27 +1,11 @@
 @charset "utf-8";
 
 /* main_banner section */
-.main_banner>{margin-bottom:46px;}
-.main_banner .slider img{cursor:pointer;}
-.main_banner .bx-wrapper {
-  -moz-box-shadow:none;
-  -webkit-box-shadow:none;
-  box-shadow:none;
-  border:none;
-  background:transparent;
- }
-.main_banner .bx-wrapper .bx-pager{bottom:32px;}
-.main_banner .bx-wrapper .bx-pager.bx-default-pager a{
-  background-color:#ccc;
-  width:16px;
-  height:16px;
-  margin-left:8.5px;
-  margin-right:8.5px;
-  border-radius:8px;
- }
-.main_banner .bx-wrapper .bx-pager.bx-default-pager a:hover, .bx-wrapper .bx-pager.bx-default-pager a.active, .bx-wrapper .bx-pager.bx-default-pager a:focus {
-  background-color: #b5121b;
- }
+.main_banner{margin-bottom:46px;}
+.main_banner img{cursor:pointer;}
+
+
+
 /* fra_mall_store section */
 .fra,.mall,.store{float:left;width:230px;margin-right:10px;position:relative;}
 .fra, .store{cursor:pointer;}
@@ -69,7 +53,7 @@
 /* banner section */
 .banner{padding-bottom:20px;}
 .banner01{
-   float:left;
+  float:left;
 }
 .banner02{
   float:right;
@@ -105,9 +89,8 @@
   font-size:12px;
   color:#666;
 }
-.etc_txt:last-child p{p}
 /* sns section */
-.sns{padding-top:45px; padding-bottom:115px;}
+.sns{padding-top:45px;padding-bottom:115px;}
 .sns_tit,.sns_icons{float:left;}
 .sns_tit{width:149px;margin-right:10px;}
 .sns_icons{margin-top:3px;}
